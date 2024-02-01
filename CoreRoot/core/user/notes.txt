@@ -1,0 +1,10 @@
+    AbstractBaseUser: This is a base class provided by Django that you can use to define your own custom user model. 
+    It provides the core implementation of a user model, 
+    but you need to subclass it and provide implementations for some required methods and fields.
+
+    BaseUserManager: This is a manager class provided by Django for managing user accounts. 
+    It provides methods for creating users, managing passwords, and performing other user-related 
+    operations. You can subclass it to create your own custom manager if needed.
+
+    PermissionsMixin: This is a mixin class provided by Django that adds methods and fields for handling permissions. 
+    It's used in conjunction with Django's permission system to control access to views and resources within your application.
